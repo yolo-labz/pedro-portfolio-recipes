@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node (in case a recipe pulls in commitlint locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python (if a recipe grows a helper)
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Build/temp
+dist/
+build/
+tmp/
+*.log
+
+# Secrets (defense-in-depth — no secrets should ever land here)
+*.pem
+*.key
+.env
+.env.*
+!.env.example

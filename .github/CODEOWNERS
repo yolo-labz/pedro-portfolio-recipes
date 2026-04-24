@@ -1,0 +1,10 @@
+# Path-based ownership. Informational only — this is a solo-maintained repo.
+# Pattern matches GitHub CODEOWNERS syntax; first match wins.
+
+*                         @phsb5321
+
+/.github/                 @phsb5321
+/recipes/                 @phsb5321
+/sonar-project.properties @phsb5321
+/SECURITY.md              @phsb5321
+/lefthook.yml             @phsb5321
